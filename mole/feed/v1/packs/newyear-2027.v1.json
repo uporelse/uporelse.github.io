@@ -1,0 +1,171 @@
+{
+  "id": "newyear-2027",
+  "version": 1,
+  "name": "New Year's Eve",
+  "emoji": "🎆",
+  "kind": "word",
+  "availableFrom": "2026-12-26",
+  "availableUntil": "2027-01-10",
+  "entries": [
+    {
+      "word": "Midnight snack",
+      "decoy": "Bedtime story"
+    },
+    {
+      "word": "Countdown clock",
+      "decoy": "Egg timer"
+    },
+    {
+      "word": "Midnight",
+      "decoy": "Sunrise"
+    },
+    {
+      "word": "Confetti cannon",
+      "decoy": "Leaf blower"
+    },
+    {
+      "word": "Father Time",
+      "decoy": "Sandman"
+    },
+    {
+      "word": "Resolution",
+      "decoy": "Promise"
+    },
+    {
+      "word": "Sparkling juice",
+      "decoy": "Lemonade"
+    },
+    {
+      "word": "Ball drop",
+      "decoy": "Balloon drop"
+    },
+    {
+      "word": "New planner",
+      "decoy": "Notebook"
+    },
+    {
+      "word": "Party blower",
+      "decoy": "Kazoo"
+    },
+    {
+      "word": "Slow dance",
+      "decoy": "Group hug"
+    },
+    {
+      "word": "Dance party",
+      "decoy": "Talent show"
+    },
+    {
+      "word": "High five",
+      "decoy": "Hug"
+    },
+    {
+      "word": "Time zone",
+      "decoy": "Map"
+    },
+    {
+      "word": "Grandfather clock",
+      "decoy": "Old piano"
+    },
+    {
+      "word": "Gym membership",
+      "decoy": "Library card"
+    },
+    {
+      "word": "Fresh start",
+      "decoy": "Second chance"
+    },
+    {
+      "word": "Hot cocoa",
+      "decoy": "Coffee"
+    },
+    {
+      "word": "Pajama party",
+      "decoy": "Sleepover"
+    },
+    {
+      "word": "Sing-along",
+      "decoy": "Spelling bee"
+    },
+    {
+      "word": "Group photo",
+      "decoy": "Class picture"
+    },
+    {
+      "word": "Time capsule",
+      "decoy": "Treasure chest"
+    },
+    {
+      "word": "Lucky coin",
+      "decoy": "Four-leaf clover"
+    },
+    {
+      "word": "Goals",
+      "decoy": "Wishes"
+    },
+    {
+      "word": "Bucket list",
+      "decoy": "Shopping list"
+    },
+    {
+      "word": "Staying up late",
+      "decoy": "Early bedtime"
+    },
+    {
+      "word": "Party invite",
+      "decoy": "Postcard"
+    },
+    {
+      "word": "Party dress",
+      "decoy": "Pajamas"
+    },
+    {
+      "word": "Sequin dress",
+      "decoy": "Ball gown"
+    },
+    {
+      "word": "Fortune cookie",
+      "decoy": "Horoscope"
+    },
+    {
+      "word": "Twelve grapes",
+      "decoy": "Jelly beans"
+    },
+    {
+      "word": "Winter break",
+      "decoy": "Spring break"
+    },
+    {
+      "word": "Sleeping in",
+      "decoy": "Early alarm"
+    },
+    {
+      "word": "Leftover pizza",
+      "decoy": "Breakfast burrito"
+    },
+    {
+      "word": "Polar bear plunge",
+      "decoy": "Cannonball"
+    },
+    {
+      "word": "Year in review",
+      "decoy": "Report card"
+    },
+    {
+      "word": "Fancy shoes",
+      "decoy": "Slippers"
+    },
+    {
+      "word": "Hourglass",
+      "decoy": "Sundial"
+    },
+    {
+      "word": "Toast at midnight",
+      "decoy": "Birthday wish"
+    },
+    {
+      "word": "Year in photos",
+      "decoy": "Scrapbook"
+    }
+  ]
+}

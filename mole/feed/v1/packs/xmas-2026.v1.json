@@ -1,0 +1,187 @@
+{
+  "id": "xmas-2026",
+  "version": 1,
+  "name": "Christmas",
+  "emoji": "🎄",
+  "kind": "word",
+  "availableFrom": "2026-11-15",
+  "availableUntil": "2027-01-10",
+  "entries": [
+    {
+      "word": "Gingerbread man",
+      "decoy": "Snow angel"
+    },
+    {
+      "word": "Reindeer",
+      "decoy": "Husky"
+    },
+    {
+      "word": "Christmas card",
+      "decoy": "Thank-you note"
+    },
+    {
+      "word": "Stocking",
+      "decoy": "Mitten"
+    },
+    {
+      "word": "Candy cane",
+      "decoy": "Lollipop"
+    },
+    {
+      "word": "Gingerbread house",
+      "decoy": "Log cabin"
+    },
+    {
+      "word": "Christmas tree",
+      "decoy": "Pine cone"
+    },
+    {
+      "word": "Tinsel",
+      "decoy": "Garland"
+    },
+    {
+      "word": "Ornament",
+      "decoy": "Snow globe"
+    },
+    {
+      "word": "Christmas Eve",
+      "decoy": "New Year's Eve"
+    },
+    {
+      "word": "Mistletoe",
+      "decoy": "Holly"
+    },
+    {
+      "word": "Chimney",
+      "decoy": "Fireplace"
+    },
+    {
+      "word": "Stocking stuffer",
+      "decoy": "Party favor"
+    },
+    {
+      "word": "Carol singers",
+      "decoy": "Choir"
+    },
+    {
+      "word": "Ugly sweater",
+      "decoy": "Woolly hat"
+    },
+    {
+      "word": "Cookies for Santa",
+      "decoy": "Carrots for reindeer"
+    },
+    {
+      "word": "Nativity play",
+      "decoy": "School play"
+    },
+    {
+      "word": "Fruitcake",
+      "decoy": "Banana bread"
+    },
+    {
+      "word": "Roast turkey",
+      "decoy": "Roast chicken"
+    },
+    {
+      "word": "Eggnog",
+      "decoy": "Hot chocolate"
+    },
+    {
+      "word": "Wreath",
+      "decoy": "Bow"
+    },
+    {
+      "word": "Snowshoes",
+      "decoy": "Ice skates"
+    },
+    {
+      "word": "Snowball fight",
+      "decoy": "Pillow fight"
+    },
+    {
+      "word": "North Pole",
+      "decoy": "South Pole"
+    },
+    {
+      "word": "Letter to Santa",
+      "decoy": "Wish list"
+    },
+    {
+      "word": "Santa's workshop",
+      "decoy": "Toy shop"
+    },
+    {
+      "word": "Tree topper star",
+      "decoy": "Angel ornament"
+    },
+    {
+      "word": "Yule log",
+      "decoy": "Chocolate roll"
+    },
+    {
+      "word": "Snow day",
+      "decoy": "Sick day"
+    },
+    {
+      "word": "Roasting chestnuts",
+      "decoy": "Toasting marshmallows"
+    },
+    {
+      "word": "Christmas market",
+      "decoy": "Craft fair"
+    },
+    {
+      "word": "Holiday movie",
+      "decoy": "Musical"
+    },
+    {
+      "word": "Christmas morning",
+      "decoy": "Birthday morning"
+    },
+    {
+      "word": "Christmas lights",
+      "decoy": "Lanterns"
+    },
+    {
+      "word": "Brussels sprouts",
+      "decoy": "Peas"
+    },
+    {
+      "word": "Sleigh bells",
+      "decoy": "Wind chimes"
+    },
+    {
+      "word": "Nutcracker",
+      "decoy": "Music box"
+    },
+    {
+      "word": "Snow boots",
+      "decoy": "Moon boots"
+    },
+    {
+      "word": "Elf hat",
+      "decoy": "Pom-pom hat"
+    },
+    {
+      "word": "Present",
+      "decoy": "Parcel"
+    },
+    {
+      "word": "Santa Claus",
+      "decoy": "Jack Frost"
+    },
+    {
+      "word": "Peppermint bark",
+      "decoy": "Fudge"
+    },
+    {
+      "word": "Paper chain",
+      "decoy": "Paper snowflake"
+    },
+    {
+      "word": "Secret Santa",
+      "decoy": "Gift swap"
+    }
+  ]
+}
