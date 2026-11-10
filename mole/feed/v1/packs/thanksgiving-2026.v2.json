@@ -1,0 +1,179 @@
+{
+  "id": "thanksgiving-2026",
+  "version": 2,
+  "name": "Thanksgiving",
+  "emoji": "🦃",
+  "kind": "word",
+  "availableFrom": "2026-11-12",
+  "availableUntil": "2026-11-30",
+  "entries": [
+    {
+      "word": "Turkey dinner",
+      "decoy": "Pot roast"
+    },
+    {
+      "word": "Pumpkin pie",
+      "decoy": "Apple pie"
+    },
+    {
+      "word": "Cranberry sauce",
+      "decoy": "Gravy"
+    },
+    {
+      "word": "Stuffing",
+      "decoy": "Mashed potatoes"
+    },
+    {
+      "word": "Pilgrim",
+      "decoy": "Explorer"
+    },
+    {
+      "word": "Cornucopia",
+      "decoy": "Fruit basket"
+    },
+    {
+      "word": "Parade float",
+      "decoy": "Hot-air balloon"
+    },
+    {
+      "word": "Wishbone",
+      "decoy": "Drumstick"
+    },
+    {
+      "word": "Sweet potato",
+      "decoy": "Carrot"
+    },
+    {
+      "word": "Corn on the cob",
+      "decoy": "Popcorn"
+    },
+    {
+      "word": "Leftovers",
+      "decoy": "Lunchbox"
+    },
+    {
+      "word": "Harvest",
+      "decoy": "Garden"
+    },
+    {
+      "word": "Hay bale",
+      "decoy": "Log pile"
+    },
+    {
+      "word": "Pie crust",
+      "decoy": "Pizza dough"
+    },
+    {
+      "word": "Gourd",
+      "decoy": "Squash"
+    },
+    {
+      "word": "Autumn leaves",
+      "decoy": "Pine needles"
+    },
+    {
+      "word": "Family reunion",
+      "decoy": "Birthday party"
+    },
+    {
+      "word": "Oven",
+      "decoy": "Microwave"
+    },
+    {
+      "word": "Rolling pin",
+      "decoy": "Whisk"
+    },
+    {
+      "word": "Carving knife",
+      "decoy": "Pizza cutter"
+    },
+    {
+      "word": "Dinner rolls",
+      "decoy": "Cornbread"
+    },
+    {
+      "word": "Green bean casserole",
+      "decoy": "Mac and cheese"
+    },
+    {
+      "word": "Pecan pie",
+      "decoy": "Cheesecake"
+    },
+    {
+      "word": "Gravy boat",
+      "decoy": "Teapot"
+    },
+    {
+      "word": "Tablecloth",
+      "decoy": "Napkin"
+    },
+    {
+      "word": "Kids' table",
+      "decoy": "High chair"
+    },
+    {
+      "word": "Food coma",
+      "decoy": "Sugar rush"
+    },
+    {
+      "word": "Black Friday",
+      "decoy": "Garage sale"
+    },
+    {
+      "word": "Gratitude jar",
+      "decoy": "Piggy bank"
+    },
+    {
+      "word": "Place cards",
+      "decoy": "Name tags"
+    },
+    {
+      "word": "Turkey trot",
+      "decoy": "Fun run"
+    },
+    {
+      "word": "Mayflower",
+      "decoy": "Pirate ship"
+    },
+    {
+      "word": "Apple cider",
+      "decoy": "Hot chocolate"
+    },
+    {
+      "word": "Raking leaves",
+      "decoy": "Shoveling snow"
+    },
+    {
+      "word": "Flannel shirt",
+      "decoy": "Denim jacket"
+    },
+    {
+      "word": "Cranberries",
+      "decoy": "Blueberries"
+    },
+    {
+      "word": "Making a toast",
+      "decoy": "Giving a speech"
+    },
+    {
+      "word": "Family photo",
+      "decoy": "Home video"
+    },
+    {
+      "word": "Pumpkin",
+      "decoy": "Watermelon"
+    },
+    {
+      "word": "Grandma's recipe",
+      "decoy": "Cookbook"
+    },
+    {
+      "word": "Dishwashing",
+      "decoy": "Laundry"
+    },
+    {
+      "word": "Football on TV",
+      "decoy": "Movie night"
+    }
+  ]
+}
