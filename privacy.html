@@ -7,7 +7,7 @@ nav a{font-weight:600}a{color:var(--accent)}h1{line-height:1.2}h2{margin-top:2em
 footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style></head><body>
 <nav><a href="index.html">Up or Else</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav>
 <main><h1>Privacy Policy</h1>
-<p><em>Last updated: November 8, 2026</em></p>
+<p><em>Last updated: November 18, 2026</em></p>
 <p>Up or Else ("the app", "we") is an iPhone alarm app. This policy explains what data the app handles. In short: <strong>your alarms, wake-up data, sleep data and sound clips stay on your iPhone. We do not run a server. The only things that leave the device are your App Store subscription status (RevenueCat), anonymous usage statistics (TelemetryDeck) that you can turn off, and, only if you turn on the weather, either an approximate location or the city you typed, sent to Apple to get the forecast.</strong></p>
 <h2>Summary</h2>
 <ul>
@@ -23,6 +23,7 @@ footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style>
 <li>Your wake-up log used for the Progress tab: when each alarm was scheduled and first rang, when you completed the mission, snooze count, wrong answers, whether the easy fallback was used, and the result of the "Are you really up?" check.</li>
 <li>Your wake-up streak and streak freezes.</li>
 <li>Your sleep tracker nights and short sound clips (see "Sleep tracker and microphone" below).</li>
+<li>Your countdowns (name, date, and whether it repeats every year) and your to-do tasks (text, the day and time you chose, and whether each is done).</li>
 <li>The barcode or QR code value you register for the Scan mission (the camera image itself is not saved).</li>
 <li>App preferences (for example, whether you finished onboarding, and which Morning card rows you turned on).</li>
 <li>A small copy of your next alarm times, labels and streak in an on-device container shared with Up or Else's Home Screen / Lock Screen widget and Siri shortcuts, so they can show and change your alarms. It never leaves your device.</li>
@@ -31,11 +32,13 @@ footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style>
 <h2>Permissions (all optional, asked only when you turn on the feature)</h2>
 <ul>
 <li><strong>Alarms (AlarmKit):</strong> to schedule alarms that ring even on Silent.</li>
-<li><strong>Notifications:</strong> only for one reminder 2 days before your free trial ends, if you turn it on, and the optional Sunday recap of your own alarm stats, which you can turn off in Settings. No marketing notifications.</li>
+<li><strong>Notifications:</strong> only for one reminder 2 days before your free trial ends, if you turn it on; the optional Sunday recap of your own alarm stats, which you can turn off in Settings; and reminders for to-do tasks you give a time. These are scheduled on your iPhone; nothing is sent from a server. No marketing notifications.</li>
 <li><strong>Motion:</strong> read live on the device for the Shake mission; not stored.</li>
 <li><strong>Camera:</strong> used live on the device to read the barcode or QR code for the Scan mission; no photos or video are saved or sent.</li>
-<li><strong>Microphone (optional, sleep tracker):</strong> used only while you run the sleep tracker. Sound is analysed live on the device, and short clips are saved only on your iPhone. See below.</li>
+<li><strong>Microphone (optional, sleep tracker and voice note):</strong> used only while you run the sleep tracker or record a voice note to yourself. Sound is analysed live on the device, and recordings are saved only on your iPhone. See below.</li>
 <li><strong>Calendar (optional, Morning card):</strong> the app reads your first event of the day on the device to show it after your mission. Calendar data is never stored by the app or sent anywhere.</li>
+<li><strong>Add a countdown to Calendar (no permission):</strong> this opens Apple's own new-event screen with the countdown's name and day filled in. You decide whether to save it; the app does not get access to your calendar this way.</li>
+<li><strong>Photos (add only):</strong> only if you choose <strong>Save Image</strong> in the share sheet while sharing a streak or sleep card. iOS saves the picture; the app cannot see your photo library.</li>
 <li><strong>Approximate location or a typed city (optional, weather):</strong> see "Weather and location" below.</li>
 <li><strong>Siri &amp; Shortcuts:</strong> voice requests are handled by Apple; the app only receives the resulting action (for example, "set an alarm for 7:00").</li>
 </ul>
@@ -48,6 +51,18 @@ footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style>
 <li>Turn off <strong>Save sound clips</strong> in Settings (on by default) to stop saving clips; the live analysis still happens on the device.</li>
 </ul>
 <p>You can also delete one night or all nights from the sleep report. The sleep tracker is a wellness feature, not a medical device, and its labels are best guesses.</p>
+<h2>Voice note to yourself (Tomorrow Me)</h2>
+<ul>
+<li>Optional. If you record a note, the microphone is used only while the red Recording card is on screen, for up to 20 seconds.</li>
+<li>The recording is saved <strong>only on your iPhone</strong>, in the app's private storage. It is never uploaded, and we never receive it or any transcript of it.</li>
+<li>By default it is deleted after you play it. You can choose to keep it for 1 or 7 days instead. A note you never play is deleted after 2 days. You can delete it yourself at any time, and <strong>Delete local data</strong> removes it too.</li>
+<li>Your alarm always rings with its own sound; the note is only played inside the app when you tap Play.</li>
+</ul>
+<h2>Morning Quest, Wake World, Wake DNA and ShiftPilot</h2>
+<ul>
+<li>Your quest cards, island progress, wake-up profile and shift plan are worked out and stored <strong>only on your iPhone</strong>. None of it is sent to us.</li>
+<li>Share cards from Wake World contain the island picture and counts only: no alarm times, no location and no sleep data. Nothing is shared unless you tap Share.</li>
+</ul>
 <h2>Weather and location</h2>
 <p>Weather is <strong>off until you turn it on</strong> (Settings → Morning card → Weather). When it is on, today's weather is shown on the alarm (ring) screen and on the Morning card after you stop your alarm. You choose where the forecast is for in <strong>Settings → Weather</strong>:</p>
 <ul>
@@ -77,7 +92,7 @@ footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style>
 <ul>
 <li><strong>Subscription status (RevenueCat):</strong> an anonymous app-specific user ID and App Store purchase information (which subscription, when it started, renews or ends, and whether it is a free trial). We use it only to provide the subscription you bought: unlocking the app, restoring purchases and checking whether your subscription is active.</li>
 <li><strong>Anonymous usage statistics (TelemetryDeck):</strong> event names with fixed values, the app version and a random per-install identifier (see above). We use them to understand and improve the app. You can turn them off at any time in <strong>Settings → Anonymous usage stats</strong>.</li>
-<li><strong>Everything else stays on your iPhone</strong> (alarms, wake-up log, streak, sleep tracker data and sound clips, calendar event, scan code, preferences). It is not sent to us, and we do not process it on any server.</li>
+<li><strong>Everything else stays on your iPhone</strong> (alarms, wake-up log, streak, sleep tracker data and sound clips, voice notes, countdowns, to-do tasks, calendar event, scan code, preferences). It is not sent to us, and we do not process it on any server.</li>
 </ul>
 <h2>Service providers and where data is processed</h2>
 <ul>
