@@ -7,11 +7,11 @@ nav a{font-weight:600}a{color:var(--accent)}h1{line-height:1.2}h2{margin-top:2em
 footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style></head><body>
 <nav><a href="index.html">Up or Else</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav>
 <main><h1>Privacy Policy</h1>
-<p><em>Last updated: November 18, 2026</em></p>
-<p>Up or Else ("the app", "we") is an iPhone alarm app. This policy explains what data the app handles. In short: <strong>your alarms, wake-up data, sleep data and sound clips stay on your iPhone. We do not run a server. The only things that leave the device are your App Store subscription status (RevenueCat), anonymous usage statistics (TelemetryDeck) that you can turn off, and, only if you turn on the weather, either an approximate location or the city you typed, sent to Apple to get the forecast.</strong></p>
+<p><em>Last updated: November 23, 2026</em></p>
+<p>Up or Else ("the app", "we") is an iPhone alarm app. This policy explains what data the app handles. In short: <strong>your alarms, wake-up data, sleep data and sound clips stay on your iPhone. Wake Partners is the one exception: it is off until you turn it on, and what it sends is listed under "Wake Partners" below. With it off, we run no server that receives your data. The only things that leave the device are your App Store subscription status (RevenueCat), anonymous usage statistics (TelemetryDeck) that you can turn off, and, only if you turn on the weather, either an approximate location or the city you typed, sent to Apple to get the forecast.</strong></p>
 <h2>Summary</h2>
 <ul>
-<li><strong>We do not collect your name, email, contacts, precise location, alarms, sleep data or anything you type. Audio is never uploaded by the app; a sound clip leaves your iPhone only if you share it yourself (see "Sharing").</strong> We have no servers that receive your data.</li>
+<li><strong>Unless you turn on Wake Partners, we do not collect your name, email, contacts, precise location, alarms, sleep data or anything you type. Audio is never uploaded by the app; a sound clip leaves your iPhone only if you share it yourself (see "Sharing").</strong> Our server receives data only if you turn on Wake Partners, and only what that section lists.</li>
 <li>No account or sign-up.</li>
 <li><strong>Anonymous usage statistics only (TelemetryDeck),</strong> which you can turn off in <strong>Settings → Anonymous usage stats</strong>. No advertising or tracking SDKs, no advertising identifier (IDFA), no App Tracking Transparency prompt. We do not track you across apps or websites.</li>
 <li>No ads, ever.</li>
@@ -25,6 +25,7 @@ footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style>
 <li>Your sleep tracker nights and short sound clips (see "Sleep tracker and microphone" below).</li>
 <li>Your countdowns (name, date, and whether it repeats every year) and your to-do tasks (text, the day and time you chose, and whether each is done).</li>
 <li>The barcode or QR code value you register for the Scan mission (the camera image itself is not saved).</li>
+<li>For the Photo mission: a small preview of the spot you chose and a list of numbers your iPhone works out from that picture so it can recognise the same spot again. The full-size picture is not kept, and nothing is added to your photo library.</li>
 <li>App preferences (for example, whether you finished onboarding, and which Morning card rows you turned on).</li>
 <li>A small copy of your next alarm times, labels and streak in an on-device container shared with Up or Else's Home Screen / Lock Screen widget and Siri shortcuts, so they can show and change your alarms. It never leaves your device.</li>
 </ul>
@@ -33,13 +34,15 @@ footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style>
 <ul>
 <li><strong>Alarms (AlarmKit):</strong> to schedule alarms that ring even on Silent.</li>
 <li><strong>Notifications:</strong> only for one reminder 2 days before your free trial ends, if you turn it on; the optional Sunday recap of your own alarm stats, which you can turn off in Settings; and reminders for to-do tasks you give a time. These are scheduled on your iPhone; nothing is sent from a server. No marketing notifications.</li>
-<li><strong>Motion:</strong> read live on the device for the Shake mission; not stored.</li>
-<li><strong>Camera:</strong> used live on the device to read the barcode or QR code for the Scan mission; no photos or video are saved or sent.</li>
+<li><strong>Notifications from Wake Partners (only if you turn it on):</strong> that a partner did not get up, is up now, or joined. These are the only notifications sent from our server; they reach your iPhone through Expo's and Apple's notification services.</li>
+<li><strong>Motion:</strong> read live on the device to count shakes for the Shake mission and steps for the Walk mission; not stored.</li>
+<li><strong>Camera:</strong> used live on the device to read the barcode or QR code for the Scan mission, and to take the picture for the Photo mission. That picture is compared on your iPhone with the spot you chose and then discarded. No photos or video are sent anywhere.</li>
 <li><strong>Microphone (optional, sleep tracker and voice note):</strong> used only while you run the sleep tracker or record a voice note to yourself. Sound is analysed live on the device, and recordings are saved only on your iPhone. See below.</li>
 <li><strong>Calendar (optional, Morning card):</strong> the app reads your first event of the day on the device to show it after your mission. Calendar data is never stored by the app or sent anywhere.</li>
 <li><strong>Add a countdown to Calendar (no permission):</strong> this opens Apple's own new-event screen with the countdown's name and day filled in. You decide whether to save it; the app does not get access to your calendar this way.</li>
 <li><strong>Photos (add only):</strong> only if you choose <strong>Save Image</strong> in the share sheet while sharing a streak or sleep card. iOS saves the picture; the app cannot see your photo library.</li>
 <li><strong>Approximate location or a typed city (optional, weather):</strong> see "Weather and location" below.</li>
+<li><strong>Reading aloud (no permission):</strong> if you tap "Hear your morning", your iPhone's own voice reads the weather, your first calendar event and today's to-dos that the app already shows. This happens on the device; nothing is recorded or sent.</li>
 <li><strong>Siri &amp; Shortcuts:</strong> voice requests are handled by Apple; the app only receives the resulting action (for example, "set an alarm for 7:00").</li>
 </ul>
 <h2>Sleep tracker and microphone</h2>
@@ -63,6 +66,18 @@ footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style>
 <li>Your quest cards, island progress, wake-up profile and shift plan are worked out and stored <strong>only on your iPhone</strong>. None of it is sent to us.</li>
 <li>Share cards from Wake World contain the island picture and counts only: no alarm times, no location and no sleep data. Nothing is shared unless you tap Share.</li>
 </ul>
+<h2>Wake Partners (optional)</h2>
+<p>Wake Partners is off until you turn it on in the app, and you can turn it off at any time. It lets friends who invited each other be told when one of them does not finish a wake-up mission, and compare how fast they got up. There is no account: your iPhone makes a random identifier and a secret that only it holds.</p>
+<p>While it is on, the app sends to our server (hosted by Supabase in the United States):</p>
+<ul>
+<li>the name you type for your partners to see;</li>
+<li>the ring times of your alarms for the next 3 days, and how many minutes after each one your partners should be told (only while you have at least one partner);</li>
+<li>when you finished a wake-up mission;</li>
+<li>a notification address for your iPhone (an Expo push token), so that you can be told about your partners.</li>
+</ul>
+<p>Your partners can see your name, whether you finished today's mission and how many seconds it took, and the week's score. They never see your alarm labels, missions, sounds, sleep data or location, and none of those are sent.</p>
+<p>A notification to your partners is also sent if your iPhone is offline when you finish, because the server cannot see that you are up.</p>
+<p><strong>Turn off and delete my partner data</strong> in the Wake Partners screen, or <strong>Settings → Delete local data</strong>, deletes everything the server holds for your iPhone straight away. Ring times older than 21 days are deleted automatically, and so is all data for an iPhone that has not opened the feature for 180 days.</p>
 <h2>Weather and location</h2>
 <p>Weather is <strong>off until you turn it on</strong> (Settings → Morning card → Weather). When it is on, today's weather is shown on the alarm (ring) screen and on the Morning card after you stop your alarm. You choose where the forecast is for in <strong>Settings → Weather</strong>:</p>
 <ul>
@@ -92,17 +107,20 @@ footer{color:var(--muted);font-size:14px;text-align:center;padding:24px}</style>
 <ul>
 <li><strong>Subscription status (RevenueCat):</strong> an anonymous app-specific user ID and App Store purchase information (which subscription, when it started, renews or ends, and whether it is a free trial). We use it only to provide the subscription you bought: unlocking the app, restoring purchases and checking whether your subscription is active.</li>
 <li><strong>Anonymous usage statistics (TelemetryDeck):</strong> event names with fixed values, the app version and a random per-install identifier (see above). We use them to understand and improve the app. You can turn them off at any time in <strong>Settings → Anonymous usage stats</strong>.</li>
+<li><strong>Wake Partners, only if you turn it on:</strong> the name you typed, a random identifier for your iPhone, your next alarm ring times, when you finished a mission, and a notification address. We use them only to tell your partners when you have not got up, to tell you about them, and to keep the duel score.</li>
 <li><strong>Everything else stays on your iPhone</strong> (alarms, wake-up log, streak, sleep tracker data and sound clips, voice notes, countdowns, to-do tasks, calendar event, scan code, preferences). It is not sent to us, and we do not process it on any server.</li>
 </ul>
 <h2>Service providers and where data is processed</h2>
 <ul>
 <li><strong>RevenueCat, Inc.</strong> (United States) processes the subscription data above on our behalf, so this data is processed and stored in the United States.</li>
 <li><strong>TelemetryDeck GmbH</strong> (Germany) processes the anonymous usage statistics above on our behalf.</li>
+<li><strong>Supabase, Inc.</strong> (United States) hosts the Wake Partners server on our behalf, and <strong>Expo (650 Industries, Inc.)</strong> (United States) and Apple deliver its notifications. Only used if you turn on Wake Partners.</li>
 <li><strong>Apple</strong> handles payments and, if you turn on the weather, the place lookup and weather request, under Apple's privacy policy (<a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a>).</li>
 </ul>
 <h2>How long data is kept</h2>
 <ul>
 <li><strong>On your iPhone:</strong> until you delete it (<strong>Settings → Delete local data</strong>) or delete the app. Sleep tracker nights are limited to your last 60 nights; sound clips are deleted automatically after 7 days.</li>
+<li><strong>Wake Partners on our server:</strong> until you turn it off or delete local data; ring times for 21 days at most; everything after 180 days without use.</li>
 <li><strong>Usage statistics at TelemetryDeck:</strong> kept under TelemetryDeck's own retention rules (see its privacy policy).</li>
 <li><strong>Subscription records at RevenueCat:</strong> kept for as long as needed to provide and restore your subscription.</li>
 </ul>
